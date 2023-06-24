@@ -1,0 +1,47 @@
+body {
+  background-image: url("https://image.api.playstation.com/vulcan/ap/rnd/202210/0814/TWpOjSegV0eb0lJNiG99iQJc.png");
+
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+h1 {
+  color: goldenrod;
+}
+#message-el {
+  font-style: italic;
+}
+.btn-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+button {
+  color: #016f32;
+  width: 150px;
+  background: goldenrod;
+  text-transform: uppercase;
+  border: none;
+  font-weight: bold;
+  padding: 0.3em;
+  border-radius: 0.3em;
+  margin-bottom: 0.5em;
+  display: block;
+}
+button:hover {
+  opacity: 0.9;
+}
+.message-blackjack {
+  color: rgb(246, 3, 222);
+}
+.message-out {
+  color: rgb(47, 215, 252);
+}
